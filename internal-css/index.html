@@ -5,63 +5,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catopedia</title>
+    <style>
+        h1, h2, p{
+            color: #1d12c0;
+        }
+        section {
+            width: 100%;
+            padding: 0 7%;
+            display: table;
+            margin: 0;
+            max-width: none;
+            background-color: #41d307;
+            height: 100vh;
+        }
+        section:nth-of-type(2n) {
+            background-color: #FE4B74;
+        }
+        ul.a{
+            list-style-type: upper-roman;
+        }
+        ul.b{
+            list-style-type: lower-alpha;
+        }
+        ul.c{
+            list-style-type: circle;
+        }
+        
+        p.a {
+            text-align-last: center;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <!-- Header content goes here -->
+        <p class="d">
+            WELCOME CAT LOVERS
+        </p>
     </header>
     <nav>
-        <!-- Navigation menu goes here -->
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
     </nav>
     <main>
-        <h1>Your Web Page Title</h1>
+        <h1>Cat Adotion Palace</h1>
 
-        <section>
+        <section id="Siamese">
             <h2>Siamese Cat</h2>
             <p>Lifespan: 15-20 years</p>
             <h3>Characteristics:</h3>
-            <ul>
+            <ul class="a">
                 <li>Distinctive color points on the ears, face, paws, and tail</li>
                 <li>Blue almond-shaped eyes</li>
                 <li>Short coat with a sleek appearance</li>
             </ul>
-            <p>The Siamese cat is known for its vocal nature and social personality.</p>
+            <p class="a">The Siamese cat is known for its vocal nature and social personality.</p>
             <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcST4vFqkon9beoNKaEGwJsaFJTR7l61rtMhYJgvHEWuc0QT5ajF"
                 alt="Siamese Cat">
         </section>
 
-        <section>
+        <section id="Maine">
             <h2>Maine Coon Cat</h2>
             <p>Lifespan: 15-20 years</p>
             <h3>Characteristics:</h3>
-            <ul>
+            <ul class="b">
                 <li>Distinctive color points on the ears, face, paws, and tail</li>
                 <li>Blue almond-shaped eyes</li>
                 <li>Short coat with a sleek appearance</li>
             </ul>
-            <p>The Maine Coon cat is known for its friendly and sociable nature.</p>
+            <p class="b">The Maine Coon cat is known for its friendly and sociable nature.</p>
             <img src="https://media.istockphoto.com/id/819476630/photo/portrait-of-maine-coon-cat-on-black-background.jpg?s=612x612&w=0&k=20&c=-LjNMvz5RQOIczZS3QhI0ElDyi8a2esqbB-OT8QLkak="
                 alt="Maine Coon Cat">
         </section>
 
-        <section>
+        <section id="Persian">
             <h2>Persian Cat</h2>
             <p>Lifespan: 15-20 years</p>
             <h3>Characteristics:</h3>
-            <ul>
+            <ul class="c">
                 <li>Distinctive color points on the ears, face, paws, and tail</li>
                 <li>Blue almond-shaped eyes</li>
                 <li>Short coat with a sleek appearance</li>
             </ul>
-            <p>The Persian cat is known for its calm and gentle temperament.</p>
+            <p class="c">The Persian cat is known for its calm and gentle temperament.</p>
             <img src="https://media.istockphoto.com/id/1135793728/photo/white-persian-cats.jpg?s=612x612&w=0&k=20&c=UeroNOVgXc3wUrR_tIBhT1uH_iAoH_ZZo9I95_L-mqU="
                 alt="Persian Cat">
         </section>
     </main>
 
     <footer>
-        <!-- Footer content goes here -->
+        <p>Author: Obed Wambugu</p>
+        <p><a href = "mailto:sbgaks@gmail.com">sbgaks@gmail.com</a></p>
     </footer>
 </body>
 
